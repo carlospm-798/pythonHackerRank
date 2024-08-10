@@ -13,9 +13,11 @@ regex_alternating_repetitive_digit_pair = r"(\d)(?=\d\1)"	# Do not delete 'r'.
 # \d{5} the next 5 elements could be every number from 0-9 
 # $ makes sure to check the coincidente till the end
 
-# r"(\d)\d\1", where
+# r"(\d)(?=\d\1)", where
 # (\d) capture the first digit
-# (?=\d\1) lookahead, 
+# (?=\d\1) lookahead, (?=...) sintaxis of positive lookahead, 
+# verifing if the patern inside exist
+# \1 referst to the first group in the capture
 
 import re
 P = input()
