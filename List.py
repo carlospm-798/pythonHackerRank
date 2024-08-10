@@ -65,7 +65,6 @@ if __name__ == '__main__':
             printList = tripleValue(printList, readen[1], readen[2])
         elif (readen[0] == 'print'):
             printResult.append(str(printList))
-            print(printResult)
     
     for element in printResult:
         print(element)
