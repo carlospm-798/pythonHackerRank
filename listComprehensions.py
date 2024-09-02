@@ -22,7 +22,7 @@ def permutation(xyz, n):
         k = 0
         i += 1
     
-    print(f'Solutions: {solutions}')
+    print(solutions)
 
 
 if __name__ == '__main__':
