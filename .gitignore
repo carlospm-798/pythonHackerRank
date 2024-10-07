@@ -1,0 +1,8 @@
+# ignore example of html.
+ignore_example.html
+# ignore all .cpp files
+*.cpp
+# keeping one example of .cpp file
+!not_ignore_example.cpp
+
+.vscode/
